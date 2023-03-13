@@ -3,10 +3,21 @@
 
 Checklist when create a new data pipeline
 
-- [ ] source to sink
+- [ ] Endpoints
   - [ ] source
   - [ ] sink
-- [ ] PII data
-- [ ] schedule time
-- [ ] credentials
-- [ ] monitoring
+- [ ] Data privacy
+  - [ ] PII data
+  - [ ] Sensitive information
+- [ ] Time-based integration
+  - [ ] Batch
+    - [ ] schedule time
+  - [ ] Near real-time
+  - [ ] Real-time
+- [ ] Constraints
+  - [ ] Rate limits
+- [ ] Credentials
+- [ ] Monitoring
+- [ ] Post-productions
+  - [ ] Historical loads
+  - [ ] 
