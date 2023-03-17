@@ -17,7 +17,10 @@ Checklist when create a new data pipeline
 - [ ] Constraints
   - [ ] Rate limits
 - [ ] Credentials
+  - [ ] User accounts
+  - [ ] Service accounts
 - [ ] Monitoring
+  - [ ] Push notification
+  - [ ] Email notification
 - [ ] Post-productions
   - [ ] Historical loads
-  - [ ] 
