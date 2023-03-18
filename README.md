@@ -9,6 +9,11 @@ Checklist when create a new data pipeline
 - [ ] Data privacy
   - [ ] PII data
   - [ ] Sensitive information
+- [ ] Data security
+  - [ ] Hash (e.g. SHA256)
+  - [ ] Encryption
+    - [ ] Field-level encryption (e.g. AES-GCM, AES-CBC)
+    - [ ] File-level encryption (e.g. GPG, PGP)
 - [ ] Time-based integration
   - [ ] Batch
     - [ ] schedule time
