@@ -16,6 +16,11 @@ Checklist when create a new data pipeline
 ## Data privacy
 
 ### PII data
+- Contact informations
+  - Name (First name, Last name)
+  - Telephone number
+  - Email address
+  - 
 
 ### Sensitive information
 
