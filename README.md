@@ -3,6 +3,20 @@
 
 Checklist when create a new data pipeline
 
+## 1. Requirements
+
+## 2. Analysis
+
+## 3. Design
+
+## 4. Implement
+
+## 5. Test
+
+## 6. Deploy
+
+## 7. Maintain
+
 ## 1. Endpoints
 
 ### source
@@ -16,11 +30,12 @@ Checklist when create a new data pipeline
 ## Data privacy
 
 ### PII data
+
 - Contact informations
   - Name (First name, Last name)
   - Telephone number
   - Email address
-  - 
+  -
 
 ### Sensitive information
 
