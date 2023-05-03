@@ -27,6 +27,10 @@ Checklist when create a new data pipeline
 
 ### sink
 
+- Platform
+  - On-premise
+  - Cloud
+
 ## Data privacy
 
 ### PII data
