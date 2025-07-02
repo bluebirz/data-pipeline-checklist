@@ -1,6 +1,28 @@
 # Design
 
+## Medalian architecture
+
+```mermaid
+stateDiagram-v2
+  direction LR
+  state "Data lake" as lake
+  state "Raw data" as lake
+  state "Bronze layer" as bronze
+  state "Ingested data" as bronze 
+  state "Silver layer" as silver
+  state  "ProcessedData"  as silver
+  state "Gold layer" as gold
+  state "AnalyticsData" as gold
+  
+  lake --> bronze: ingest
+  bronze --> silver: clean & <br>transform
+  silver --> gold: business logics
+```
+
 ## Data types
+
+<details>
+  <summary>Click to expand</summary>
 
 ```mermaid
 mindmap
@@ -33,7 +55,12 @@ mindmap
       [Geography]
 ```
 
+</details>
+
 ## Naming conventions
+
+<details>
+  <summary>Click to expand</summary>
 
 ```mermaid
 mindmap
@@ -57,3 +84,5 @@ mindmap
         [Indexes &lpar;idx&rpar;]
         [Constraints<br>&lpar;pk, fk, uk&rpar;]
 ```
+
+</details>
