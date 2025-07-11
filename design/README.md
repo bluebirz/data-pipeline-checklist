@@ -86,3 +86,8 @@ mindmap
 ```
 
 </details>
+
+## Performance-first
+
+- Chunk/batch logics and configurations
+- Min/Max instances
