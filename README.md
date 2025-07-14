@@ -230,11 +230,21 @@ mindmap
 
 - Least privilege principle
 - Service accounts
+- Project-level roles
+- Service-level roles
 
 ## Security
 
 - PII data
 - Hashing, Masking, Encryption
+  - MD5
+  - SHA256
+  - AES
+- Secret keys management
+  - Hashicorp Vault
+  - AWS Secrets Manager
+  - Azure Key Vault
+  - Google Cloud Secret Manager
 
 # Requirements gathering
 
