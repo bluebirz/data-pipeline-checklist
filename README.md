@@ -213,6 +213,10 @@ mindmap
         [Aggregate<br>&lpar;agg&rpar;]
         [Temporary<br>&lpar;tmp&rpar;]
         [Views<br>&lpar;vw&rpar;]
+        [History<br>&lpar;hist&rpar;]
+        [Transform<br>&lpar;trf&rpar;]
+        [Serving<br>&lpar;srv&rpar;]
+        [Junk<br>&lpar;junk&rpar;]
       [column level]
         [ID &lpar;id&rpar;]
         [Indexes &lpar;idx&rpar;]
@@ -254,3 +258,12 @@ mindmap
   - record file
   - others
 - data volume for performance-first design
+
+## row ID
+
+- incremental ID
+- user ID (UID, UUID)
+- Aggregated ID
+  - hash functions
+  - fingerprint
+  -
